@@ -42,37 +42,37 @@
    ])
 8. db.student.insert([ <br>
    {  
-        studentId: '001',
-        name: 'Isumi',
-        address: 'Jakarta',
+        studentId: '001', <br>
+        name: 'Isumi', <br>
+        address: 'Jakarta', <br>
         department: <br>
-        { <br>
-          "$ref": "department", <br>
-          "$id": ObjectId("58b6538581ed1988a9c5f9e9"), <br>
-          "$db": "academic" <br>
-        } <br>
+          { <br>
+            "$ref": "department", <br>
+            "$id": ObjectId("58b6538581ed1988a9c5f9e9"), <br>
+            "$db": "academic" <br>
+          } <br>
    }, <br>
    {  <br>
-        studentId: '002',
-        name: 'Karina',
-        address: 'Bandung',
+        studentId: '002', <br>
+        name: 'Karina', <br>
+        address: 'Bandung', <br>
         department: <br>
-        { <br>
-          "$ref": "department", <br>
-          "$id": ObjectId("58b6538581ed1988a9c5f9ea"), <br>
-          "$db": "academic" <br>
-        }
+          { <br>
+            "$ref": "department", <br>
+            "$id": ObjectId("58b6538581ed1988a9c5f9ea"), <br>
+            "$db": "academic" <br>
+          }
    }, <br>
    {  <br>
-        studentId: '003',
-        name: 'Ina',
-        address: 'Bali',
+        studentId: '003', <br>
+        name: 'Ina', <br>
+        address: 'Bali', <br>
         department: <br>
-        { <br>
-          "$ref": "department", <br>
-          "$id": ObjectId("58b6538581ed1988a9c5f9eb"), <br>
-          "$db": "academic" <br>
-        }
+          { <br>
+            "$ref": "department", <br>
+            "$id": ObjectId("58b6538581ed1988a9c5f9eb"), <br>
+            "$db": "academic" <br>
+          }
    } <br>
    ])
 9.  db.getCollection('student').find({})
