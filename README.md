@@ -70,4 +70,5 @@
       }
    }
 ])
-9. db.getCollection('student').find
+9.  db.getCollection('student').find({})
+10. 
