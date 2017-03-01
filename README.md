@@ -61,7 +61,7 @@
             "$ref": "department", <br>
             "$id": ObjectId("58b6538581ed1988a9c5f9ea"), <br>
             "$db": "academic" <br>
-          }
+          } <br>
    }, <br>
    {  <br>
         studentId: '003', <br>
@@ -72,7 +72,7 @@
             "$ref": "department", <br>
             "$id": ObjectId("58b6538581ed1988a9c5f9eb"), <br>
             "$db": "academic" <br>
-          }
+          } <br>
    } <br>
    ])
 9.  db.getCollection('student').find({})
