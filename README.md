@@ -45,33 +45,33 @@
         studentId: '001',
         name: 'Isumi',
         address: 'Jakarta',
-        department:
-        {
-          "$ref": "department",
-          "$id": ObjectId("58b6538581ed1988a9c5f9e9"),
-          "$db": "academic"
-        }
+        department: <br>
+        { <br>
+          "$ref": "department", <br>
+          "$id": ObjectId("58b6538581ed1988a9c5f9e9"), <br>
+          "$db": "academic" <br>
+        } <br>
    }, <br>
-   {
+   {  <br>
         studentId: '002',
         name: 'Karina',
         address: 'Bandung',
-        department:
-        {
-          "$ref": "department",
-          "$id": ObjectId("58b6538581ed1988a9c5f9ea"),
-          "$db": "academic"
+        department: <br>
+        { <br>
+          "$ref": "department", <br>
+          "$id": ObjectId("58b6538581ed1988a9c5f9ea"), <br>
+          "$db": "academic" <br>
         }
    }, <br>
-   {
+   {  <br>
         studentId: '003',
         name: 'Ina',
         address: 'Bali',
-        department:
-        {
-          "$ref": "department",
-          "$id": ObjectId("58b6538581ed1988a9c5f9eb"),
-          "$db": "academic"
+        department: <br>
+        { <br>
+          "$ref": "department", <br>
+          "$id": ObjectId("58b6538581ed1988a9c5f9eb"), <br>
+          "$db": "academic" <br>
         }
    } <br>
    ])
